@@ -12,7 +12,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  
+    <distributionManagement>
+        <snapshotRepository>
+            <id>adallom</id>
+            <name>adallom-snapshots</name>
+            <url>http://adallom.artifactoryonline.com/adallom/libs-snapshots-local</url>
+        </snapshotRepository>
+        <repository>
+            <id>adallom</id>
+            <name>adallom-releases</name>
+            <url>http://adallom.artifactoryonline.com/adallom/libs-releases-local</url>
+        </repository>
+    </distributionManagement>
 
   <dependencies>
     <dependency>
